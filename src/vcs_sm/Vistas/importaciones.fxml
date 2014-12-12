@@ -1,11 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.text.*?>
 <?import java.lang.*?>
 <?import java.util.*?>
 <?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1">
-    
+
+<AnchorPane id="AnchorPane" prefHeight="660.0" prefWidth="700.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+   <children>
+      <Label contentDisplay="CENTER" layoutX="191.0" layoutY="82.0" prefHeight="29.0" prefWidth="357.0" text="Vehicle Clearing System" textAlignment="CENTER" textFill="#2b338a" underline="true">
+         <font>
+            <Font name="Arial monospaced for SAP" size="24.0" />
+         </font>
+      </Label>
+      <Label contentDisplay="CENTER" layoutX="62.0" layoutY="162.0" prefHeight="25.0" prefWidth="229.0" text="Importaciones Pendientes" textAlignment="CENTER" underline="true">
+         <font>
+            <Font name="Cambria Bold" size="18.0" />
+         </font>
+      </Label>
+      <ListView layoutX="50.0" layoutY="206.0" prefHeight="367.0" prefWidth="610.0" />
+      <Button layoutX="377.0" layoutY="601.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="162.0" text="Permitir importacion">
+         <font>
+            <Font name="Cambria" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="177.0" layoutY="601.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="162.0" text="Denegar importacion">
+         <font>
+            <Font name="Cambria" size="14.0" />
+         </font>
+      </Button>
+   </children>
 </AnchorPane>

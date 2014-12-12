@@ -1,11 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
 <?import java.lang.*?>
 <?import java.util.*?>
 <?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1">
-    
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="660.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vcs_sm.FXMLDocumentController">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="240.0" layoutY="129.0" text="VCS Vehicle Clearing System" textAlignment="CENTER">
+         <font>
+            <Font name="Cambria Math" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="226.0" layoutY="212.0" text="Usuario">
+         <font>
+            <Font name="Baskerville Old Face" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="226.0" layoutY="275.0" text="Contraseña">
+         <font>
+            <Font name="Baskerville Old Face" size="18.0" />
+         </font>
+      </Label>
+      <TextField layoutX="325.0" layoutY="210.0" />
+      <PasswordField layoutX="325.0" layoutY="274.0" />
+      <ImageView fitHeight="188.0" fitWidth="175.0" layoutX="281.0" layoutY="402.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../7MO%20CUATRIMESTRE/Analisis%20de%20Sistemas/VCS/unibe.jpg" />
+         </image>
+      </ImageView>
+      <Button contentDisplay="CENTER" layoutX="365.0" layoutY="348.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="109.0" text="Login">
+         <font>
+            <Font name="Comic Sans MS" size="13.0" />
+         </font>
+      </Button>
+      <Button contentDisplay="CENTER" layoutX="226.0" layoutY="348.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="109.0" text="Clear">
+         <font>
+            <Font name="Comic Sans MS" size="13.0" />
+         </font>
+      </Button>
+   </children>
 </AnchorPane>
