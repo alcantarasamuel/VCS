@@ -4,12 +4,12 @@
  * and open the template in the editor.
  */
 
-package vcs_sm.Vistas;
+package vcs_sm.VCS;
 
 /**
  *
  * @author Pc169
  */
-public class login {
+public class paisDeProcedencia {
     
 }
