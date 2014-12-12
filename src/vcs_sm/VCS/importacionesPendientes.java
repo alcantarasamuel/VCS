@@ -10,6 +10,6 @@ package vcs_sm.VCS;
  *
  * @author Pc169
  */
-public class aprobarImportaciones {
+public class importacionesPendientes {
     
 }
